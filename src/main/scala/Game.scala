@@ -2,20 +2,33 @@ import scala.io.StdIn
 
 object Game {
   def main(args: Array[String]): Unit = {
+    val randomGen = scala.util.Random
+    val hairColours = Seq(Some("Brown"), Some("Black"), Some("Blonde"), Some("Grey"))
+    val names = Seq("David", "Thomas", "Scully", "James", "Ryan", "Paul", "Stacey", "Jim", "Tommy", "Jhansi", "Steve")
 
-    println("Starting Guess Who... (enter quit to exit)")
-    println("Creating list of people...")
-    val people: Seq[Person] = Seq(
-      new Person("Dave", Some("Brown"), false),
-      new Person("Jim", Some("Blonde"), true),
-      new Person("Georgina", Some("Pink"), false),
-      new Person("John", None, false),
-      new Person("Sophie", Some("Black"), false),
-      new Person("James", Some("Grey"), true))
 
-    val targetPerson: Person = people(scala.util.Random.nextInt(people.size - 1))
-  println(targetPerson.toString)
-    println("OK... I've picked someone. You can give commands in the following formats:-")
+    def peopleGenerator(num:Int):Seq[Person] = {
+
+      def generatePeople(ppl:Seq[Person]):Seq[Person] = {
+        val ppl2 = ppl :+ new Person(names(randomGen.nextInt(names.size)), hairColours(randomGen.nextInt(hairColours.size)), if(randomGen.nextInt(1)==0){ true}else{false})
+        if(!(ppl2.size == num)) generatePeople(ppl2)
+        else ppl2
+      }
+
+
+      generatePeople(Seq(new Person(names(randomGen.nextInt(names.size)), hairColours(randomGen.nextInt(hairColours.size)), if(randomGen.nextInt(1)==0){ true}else{false})))
+
+    }
+
+    println("Starting Guess Who...")
+    println("Generating 10 random people...")
+
+    val people = peopleGenerator(10)
+    val targetPerson: Person = people(randomGen.nextInt(people.size - 1))
+    //wait(1000)
+    println("Choosing my person...")
+    //wait(1000)
+    println("OK... I've chosen someone. You can give commands in the following formats:-")
     println("hair:colour")
     println("moustache:true")
     println("name:name")
@@ -58,6 +71,9 @@ object Game {
       }
 
     }
+
+
+
 
   }
 }
