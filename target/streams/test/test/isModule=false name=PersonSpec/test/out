@@ -1,0 +1,25 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPersonSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuess name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is David but target is John[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list without David[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is John but target is David[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list without John[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is John and target is John[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list with just John[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuess hair colour[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is Brown but target has no hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list without anyone with Brown hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuess hair colour[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is Grey but target has Brown hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list without anyone with Grey hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is None but target has Brown hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list without anyone without hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuess hasMoustache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is doesn't have moustache and target doesn't have moustache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list of people without moustaches[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is has moustache and target has a moustache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list of people without moustaches[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when guess is has moustache and target doesn't have a moustache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return list of people without moustaches[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mguess is has a moustache and grey hair and target has a moustache and grey hair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return brian[0m[0m
