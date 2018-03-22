@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea8e68b-0980-437e-94a6-52ab1c560d65" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/my-guess-who-build.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Game.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Guess.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Person.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/PersonSpec.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Game.scala" afterPath="$PROJECT_DIR$/src/main/scala/Game.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Guess.scala" afterPath="$PROJECT_DIR$/src/main/scala/Guess.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,21 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guess.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Guess.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Guess.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="324">
+              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -101,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/Hair.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PersonSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Person.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Guess.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Game.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Guess.scala" />
       </list>
     </option>
   </component>
@@ -410,18 +398,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Guess.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Guess.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="480">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@ object Guess {
 
   def guessName(name: String, people: Seq[Person], target: Person): Seq[Person] ={
 
-    if (name.equals(target.name)){
+    if (name.equalsIgnoreCase(target.name)){
       people.filter {
         prsn => prsn.name.equalsIgnoreCase(name)
       }

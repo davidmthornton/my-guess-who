@@ -3,8 +3,6 @@ import scala.io.StdIn
 object Game {
   def main(args: Array[String]): Unit = {
 
-    var quit = false
-
     println("Starting Guess Who... (enter quit to exit)")
     println("Creating list of people...")
     val people: Seq[Person] = Seq(
@@ -16,7 +14,7 @@ object Game {
       new Person("James", Some("Grey"), true))
 
     val targetPerson: Person = people(scala.util.Random.nextInt(people.size - 1))
-
+  println(targetPerson.toString)
     println("OK... I've picked someone. You can give commands in the following formats:-")
     println("hair:colour")
     println("moustache:true")
@@ -37,8 +35,7 @@ object Game {
 
 
         val in = StdIn.readLine()
-        if (in.equals("quit")) quit = true
-        else if (in.contains("hair:")) {
+        if (in.contains("hair:")) {
           println("Checking for anyone with " + in.split(":")(1) + " hair")
           awaitInput(Guess.guessHair(Some(in.split(":")(1)), ppl, targetPerson))
         } else if (in.contains("name:")) {

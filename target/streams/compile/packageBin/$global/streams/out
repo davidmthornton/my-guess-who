@@ -1,13 +1,1 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/my-guess-who_2.12-0.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Game$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/classes/Game$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Game.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/classes/Game.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Guess$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/classes/Guess$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/classes/Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Guess.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/classes/Guess.class[0m
-[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/david/Applications/hmrc-development-environment/hmrc/my-guess-who/target/scala-2.12/my-guess-who_2.12-0.1.jar[0m
