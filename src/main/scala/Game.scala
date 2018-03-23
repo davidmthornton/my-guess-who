@@ -49,13 +49,13 @@ object Game {
 
         val in = StdIn.readLine()
         if (in.contains("hair:")) {
-          println("Checking for anyone with " + in.split(":")(1) + " hair")
-          awaitInput(Guess.guessHair(Some(in.split(":")(1)), ppl, targetPerson))
+          println("Checking for anyone with " + in.split(":")(1).trim + " hair")
+          awaitInput(Guess.guessHair(Some(in.split(":")(1).trim), ppl, targetPerson))
         } else if (in.contains("name:")) {
-          println("Checking for anyone with the name " + in.split(":")(1))
-          awaitInput(Guess.guessName(in.split(":")(1), ppl, targetPerson))
+          println("Checking for anyone with the name " + in.split(":")(1).trim)
+          awaitInput(Guess.guessName(in.split(":")(1).trim, ppl, targetPerson))
         } else if (in.contains("moustache:")) {
-          val assertion: Boolean = in.split(":")(1).toBoolean
+          val assertion: Boolean = in.split(":")(1).trim.toBoolean
           if (assertion) {
             println("Checking for anyone who has a moustache")
           } else if (!assertion) {
