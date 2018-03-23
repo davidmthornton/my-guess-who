@@ -10,13 +10,19 @@ object Game {
     def peopleGenerator(num:Int):Seq[Person] = {
 
       def generatePeople(ppl:Seq[Person]):Seq[Person] = {
-        val ppl2 = ppl :+ new Person(names(randomGen.nextInt(names.size)), hairColours(randomGen.nextInt(hairColours.size)), if(randomGen.nextInt(1)==0){ true}else{false})
+        val ppl2 = ppl :+ new Person(names(randomGen.nextInt(names.size)),
+          hairColours(randomGen.nextInt(hairColours.size)),
+          if(randomGen.nextInt(2)==1){true}else{false})
+
         if(!(ppl2.size == num)) generatePeople(ppl2)
         else ppl2
       }
 
 
-      generatePeople(Seq(new Person(names(randomGen.nextInt(names.size)), hairColours(randomGen.nextInt(hairColours.size)), if(randomGen.nextInt(1)==0){ true}else{false})))
+      generatePeople(Seq(new Person(
+        names(randomGen.nextInt(names.size)),
+        hairColours(randomGen.nextInt(hairColours.size)),
+        if(randomGen.nextInt(2)==1){true}else{false})))
 
     }
 
